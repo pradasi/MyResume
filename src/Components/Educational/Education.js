@@ -6,7 +6,7 @@ const Education = () =>{
 
 	return(
 
-			<div className="tc">
+			<div className="tc ma4">
 				{
 					educ.map((user,i) => {
 						return (
@@ -19,6 +19,7 @@ const Education = () =>{
 								uni={user.uni} 
 								marks={user.marks} 
 								year={user.year}
+								image={user.image}
 							/>
 						);
 					})

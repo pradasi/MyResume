@@ -1,5 +1,6 @@
 .flip-card1 {
-  background-color: gray;
+  background-color: #ffa69e;
+  background-image: linear-gradient(10deg, #3C3B3F 0%, #E9E7FF 80%);
   width: 800px;
   height: 400px;
   transition: transform 0.5s;
@@ -32,22 +33,29 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front1 {
-  color: black;
-}
 
 .flip-card-back1 {
-  background-color: gray;
-  color: white;
+  background-color: #ffa69e;
+  background-image: linear-gradient(10deg, #3C3B3F 0%, #E9E7FF 80%);
+  color: #434343;
+  font-family: inconsolataregular;
+  font-size: 18px;
   transform: rotateY(180deg);
 }
 
 .back-page{
   position: absolute;
   max-width: 300px;
+  font-family: inconsolataregular;
+}
+
+.back-page .sp{
+  margin-bottom: 50px;
 }
 
 .backpage:hover{
   transform: translateX(-150px);
 }
+
+
 

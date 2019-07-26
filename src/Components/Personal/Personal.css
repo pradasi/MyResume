@@ -3,11 +3,12 @@
   max-width: 300px;
   margin: auto;
   text-align: center;
-  background-color: gray;
+  background-color: white;
+  font-family: inconsolataregular;
 }
 
 .name{
-	font-family: TimesRoman;
+	font-family: inconsolataregular;
 	font-size: 20px;
 	text-align: center;
 	font-style: bold;

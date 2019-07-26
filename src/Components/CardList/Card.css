@@ -1,8 +1,4 @@
-.searchbox{
+.back{
 	background-color: #ffa69e;
   background-image: linear-gradient(10deg, #3C3B3F 0%, #E9E7FF 80%);
-}
-.searchbox::placeholder{
-	color: #f1f1f1;
-	font-family: inconsolataregular;
 }

@@ -1,22 +1,23 @@
 import React from 'react';
 import './Educational.css';
-import Image from './img.jpg';
 
-const Educational = ({id,quali,stream,name,uni,marks,year}) =>{
+const Educational = ({id,quali,stream,name,uni,marks,year,image}) =>{
 	return(
-			<div className=" bg-light-green dib br2 pa2 ma2 shadow-5 flip-card">
+			<div className="dib  ma3 shadow-5 flip-card">
 	  		<div className="flip-card-inner">
 	    		<div className="flip-card-front">
-	    			<h1>{quali}</h1> 
-	      		<p>{stream}</p> 
-	      		<p>{name}</p>
-	      		<p>{uni}</p> 
-	      		<p>{marks}</p>
-	      		<p>{year}</p> 	
+	    			<div className="db">
+	    			<button className='button'>{quali}</button><br/>
+	      		<button className='button'>{stream}</button> <br/>
+	      		<button className='button'>{name}</button><br/>
+	      		<button className='button'>{uni}</button> <br/>
+	      		<button className='button'>{marks}</button><br/>
+	      		<button className='button'>{year}</button> 	<br/>
+	      		</div>
 	    		</div>
 	    		
 	    		<div className="flip-card-back">
-	      		<img src={Image} alt={"Avatar"} width={300} height={385}/>
+	      		<img src={require(`./${image}`)} alt={"Avatar"} width={300} height={400}/>
 	    		</div>
 	  		</div>
 			</div>
