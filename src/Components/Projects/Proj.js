@@ -21,6 +21,7 @@ const Proj = ({page}) =>{
 	    			</div>	
 	    		<div className="flip-card-back1">				
 	      		<h1>{disp.title}</h1>	
+	      		<p style={{fontSize:20}}>{disp.Abstract}</p>
 	    		</div>
 	  		</div>
 			</div>

@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './Certifications.css';
-import Image from '../Personal/img.jpg';
-import house from '../Back/house.png'
+import CF1 from './certificates_1.jpg';
+import CF2 from './certificates_2.jpg'
 
 
 
@@ -31,9 +31,9 @@ class Certifications extends Component{
 		return(
 
 			<div className="container">
-			  <img className="mySlides" alt='im' src={Image}/>
+			  <img className="mySlides" alt='im' src={CF1}/>
 			  
-			  <img className="mySlides" alt='im' src={house}/>
+			  <img className="mySlides" alt='im' src={CF2}/>
 			  
 			  <button className="display-left"  onClick={ () => this.plusDivs(-1)}>&#10094;</button>
 			  <button className="display-right" onClick={ () => this.plusDivs(1)}>&#10095;</button>
