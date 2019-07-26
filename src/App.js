@@ -69,13 +69,13 @@ class App extends Component{
 			case "2":
 				display = <Education/>;
 				break;
-				case '4':
+				case '5':
 				display = <Projects />;
 				break;
 			case '3':
 				display = <Skills/>;
 				break;
-			case '5':
+			case '4':
 				display = <Certifications/>;
 				break;
 			default:

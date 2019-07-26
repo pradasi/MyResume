@@ -12,6 +12,7 @@ select#soflow-color {
    
    font-size: inherit;
    margin: 20px;
+   margin-top: 130px;
    overflow: hidden;
    padding: 5px 10px;
    text-overflow: ellipsis;

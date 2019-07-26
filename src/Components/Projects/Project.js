@@ -12,9 +12,9 @@ class Project extends Component{
  }
 
  
-     change = (event) =>{
-         this.setState({page: event.target.value});
-     }
+ change = (event) =>{
+     this.setState({page: event.target.value});
+ }
 
  render(){
  	return(

@@ -16,8 +16,8 @@
 }
 .flip-card1:hover{
   transform: translateX(-150px);
- 
   background-color: gray;
+  width: 800px;
 }
 
 .flip-card1:hover .flip-card-inner1 {
@@ -45,5 +45,9 @@
 .back-page{
   position: absolute;
   max-width: 300px;
+}
+
+.backpage:hover{
+  transform: translateX(-150px);
 }
 

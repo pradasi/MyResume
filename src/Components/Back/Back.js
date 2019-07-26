@@ -3,7 +3,7 @@ import home from './house.png';
 const Back = ({returnBack}) =>{
 	return(
 			
-				<img className='grow pa3' alt={'backButton'} src={home} width={50} height={50}  onClick={ ()=> returnBack()}/>
+				<img className='grow ml2' alt={'backButton'} src={home} width={50} height={50}  onClick={ ()=> returnBack()}/>
 			
 		);
 }

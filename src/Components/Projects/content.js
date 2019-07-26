@@ -16,7 +16,7 @@ const cont = [
 		id: 3,
 		title: "Virtual Lab",
 		duration: "2 months",
-		image: "Virual"
+		image: "Virtual"
 	},
 	{
 		id: 4,

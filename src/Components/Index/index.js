@@ -21,15 +21,17 @@ const robots = [
   {
     
     id: 4,
-    name: 'Academic Projects',
-    username: 'Samantha',
-    email: 'Nathan@yesenia.net'
-  },
-  {
-    id: 5,
     name: 'Certifications',
     username: 'Kamren',
     email: 'Lucio_Hettinger@annie.ca'
+    
+  },
+  {
+    id: 5,
+    name: 'Academic Projects',
+    username: 'Samantha',
+    email: 'Nathan@yesenia.net'
+    
   }
 ];
 
